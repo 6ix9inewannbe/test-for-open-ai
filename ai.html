@@ -1,0 +1,16 @@
+<script>
+!function(w, d, s, ...args){
+var div = d.createElement('div');
+div.id = 'aichatbot';
+d.body.appendChild(div);
+w.chatbotConfig = args;
+var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s);
+j.defer = true;
+j.type = 'module';
+j.src = 'https://aichatbot.sendbird.com/index.js';
+f.parentNode.insertBefore(j, f);
+}(window, document, 'script', 'AE4C3C82-CB11-4947-9E0C-D8A8C5A7B956', 'I1zNu8HmO67p6EVHWX6xJ', {
+apiHost: 'https://api-cf-us-3.sendbird.com',
+});
+</script>
